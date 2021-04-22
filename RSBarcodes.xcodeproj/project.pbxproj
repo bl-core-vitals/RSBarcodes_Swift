@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D450EB6D23506647008610B2 /* RSEANGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450EB5A23506647008610B2 /* RSEANGenerator.swift */; };
 		D450EB6E23506647008610B2 /* RSUnifiedCodeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450EB5B23506647008610B2 /* RSUnifiedCodeValidator.swift */; };
-		D450EB6F23506647008610B2 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450EB5C23506647008610B2 /* UIColorExtension.swift */; };
+		D450EB6F23506647008610B2 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450EB5C23506647008610B2 /* UIColor+Ext.swift */; };
 		D450EB7023506647008610B2 /* RSCode39Mod43Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450EB5D23506647008610B2 /* RSCode39Mod43Generator.swift */; };
 		D450EB7123506647008610B2 /* RSCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450EB5E23506647008610B2 /* RSCode39Generator.swift */; };
 		D450EB7223506647008610B2 /* RSCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450EB5F23506647008610B2 /* RSCodeReaderViewController.swift */; };
@@ -35,7 +35,7 @@
 		D08336B81A209AA0004EE128 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		D450EB5A23506647008610B2 /* RSEANGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSEANGenerator.swift; sourceTree = "<group>"; };
 		D450EB5B23506647008610B2 /* RSUnifiedCodeValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSUnifiedCodeValidator.swift; sourceTree = "<group>"; };
-		D450EB5C23506647008610B2 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		D450EB5C23506647008610B2 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor+Ext.swift; sourceTree = "<group>"; };
 		D450EB5D23506647008610B2 /* RSCode39Mod43Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCode39Mod43Generator.swift; sourceTree = "<group>"; };
 		D450EB5E23506647008610B2 /* RSCode39Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCode39Generator.swift; sourceTree = "<group>"; };
 		D450EB5F23506647008610B2 /* RSCodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCodeReaderViewController.swift; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 			children = (
 				D450EB5A23506647008610B2 /* RSEANGenerator.swift */,
 				D450EB5B23506647008610B2 /* RSUnifiedCodeValidator.swift */,
-				D450EB5C23506647008610B2 /* UIColorExtension.swift */,
+				D450EB5C23506647008610B2 /* UIColor+Ext.swift */,
 				D450EB5D23506647008610B2 /* RSCode39Mod43Generator.swift */,
 				D450EB5E23506647008610B2 /* RSCode39Generator.swift */,
 				D450EB5F23506647008610B2 /* RSCodeReaderViewController.swift */,
@@ -208,7 +208,7 @@
 				D450EB7D23506647008610B2 /* StringExtension.swift in Sources */,
 				D450EB7023506647008610B2 /* RSCode39Mod43Generator.swift in Sources */,
 				D450EB7523506647008610B2 /* RSCodeDataMatrixGenerator.swift in Sources */,
-				D450EB6F23506647008610B2 /* UIColorExtension.swift in Sources */,
+				D450EB6F23506647008610B2 /* UIColor+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
