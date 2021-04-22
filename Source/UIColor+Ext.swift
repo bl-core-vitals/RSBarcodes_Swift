@@ -1,5 +1,5 @@
 //
-//  UIColorExtension.swift
+//  UIColor+Ext.swift
 //  HEXColor
 //
 //  Created by R0CKSTAR on 6/13/14.
